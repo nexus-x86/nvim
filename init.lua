@@ -1,6 +1,8 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 
+vim.opt.spelllang = { "en", "cjk" }
+
 vim.opt.termguicolors = true
 vim.cmd.colorscheme("southernlights")
 
